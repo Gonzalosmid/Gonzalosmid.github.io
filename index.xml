@@ -34,5 +34,14 @@
       <description>Encargo 1</description>
     </item>
     
+    <item>
+      <title>1-Planimetría</title>
+      <link>https://gonzalosmid.github.io/docs/1-planimetria/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gonzalosmid.github.io/docs/1-planimetria/</guid>
+      <description>Encargo 2</description>
+    </item>
+    
   </channel>
 </rss>
