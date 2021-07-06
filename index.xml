@@ -43,5 +43,14 @@
       <description>Encargo 2</description>
     </item>
     
+    <item>
+      <title>2-Mecanizado CNC</title>
+      <link>https://gonzalosmid.github.io/docs/2-mecanizadocnc/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gonzalosmid.github.io/docs/2-mecanizadocnc/</guid>
+      <description>Encargo 3</description>
+    </item>
+    
   </channel>
 </rss>
