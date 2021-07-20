@@ -61,5 +61,14 @@
       <description>Encargo 3.5</description>
     </item>
     
+    <item>
+      <title>3-Mecanizado 2.5 Ejes</title>
+      <link>https://gonzalosmid.github.io/docs/3-mecanizado2.5/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gonzalosmid.github.io/docs/3-mecanizado2.5/</guid>
+      <description>Encargo 4</description>
+    </item>
+    
   </channel>
 </rss>
