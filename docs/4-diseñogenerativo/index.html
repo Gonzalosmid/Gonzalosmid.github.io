@@ -99,7 +99,7 @@
     </li>
     
     <li class="">
-      <a href="https://gonzalosmid.github.io/docs/post-1/">0-Fabricación Digital</a>
+      <a href="https://gonzalosmid.github.io/docs/0-fabricaciond/">0-Fabricación Digital</a>
     </li>
     
     <li class="">
@@ -127,11 +127,15 @@
     </li>
     
     <li class="">
-      <a href="https://gonzalosmid.github.io/docs/6-examenmateriales/">6-Pre Entrega 1</a>
+      <a href="https://gonzalosmid.github.io/docs/8-complementario-molde/">6-Complementario Molde</a>
     </li>
     
     <li class="">
-      <a href="https://gonzalosmid.github.io/docs/7-examen2/">7-Pre Entrega 2</a>
+      <a href="https://gonzalosmid.github.io/docs/6-examenmateriales/">7-Pre Entrega 1</a>
+    </li>
+    
+    <li class="">
+      <a href="https://gonzalosmid.github.io/docs/7-examen2/">8-Pre Entrega 2</a>
     </li>
     
   </ul>
@@ -152,7 +156,41 @@ Consiste en una herramiento que se utiliza para construir de forma integrada una
 <p>En el ejemplo de este encargo podemos notar el efecto de una fuerza descendente sobre dos rodamientos situados sobre una base de anclaje metálica.</p>
 <h1 id="de-qué-trata-la-simulación">¿De qué trata la Simulación?</h1>
 <p>Gracias a la diversas tecnologías de modelación, se nos permite realizar una serie de acciones que nos ayudan a testear de cierto modo nuestros modelos en un ambiente controlado digitalmente, en el cual podemos notar las fuerzas a las cuales estarán sometidas, lo cual nos genera mapas sobre la estructura, que podremos analizar con detención para modificar y establecer una mejora del diseño original. Todo esto claramente va de la mano con lo que el diseño generativo, puesto que analizamos figuras y componentes con la función de darles un umbral de seguridad ante la utilización práctica en la vida real.</p>
-<hr>
+<h1 id="fuentes-y-estudios-sobre-el-diseño-generativo">Fuentes y Estudios sobre el Diseño Generativo</h1>
+<p>El diseño generativo es ampliamente utilizado en diversos tipos de estructuras, que como todos los objetos en el mundo, están sometidos a fuerzas que estan constantemente sometiendo las piezas a deformarse y ceder, colapsando el total de la estructura.</p>
+<p>Para un mayor entendimiento de las aplicaciones y el contenido teórico que hay detrás de las simulaciones presentadas, se exponen los siguientes estudios:</p>
+
+<iframe id='pdf-hugo' src='/pdf/Dise%c3%b1oGenerativo.pdf'
+frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function myFunction(id) {
+      document.getElementById(id).classList.add("full-screen");
+    }
+    document.addEventListener('keydown', function(event){
+	if(event.key === "Escape"){
+        document.getElementById('pdf-hugo').classList.remove("full-screen");
+	}
+});
+</script>
+<h2 id="hahahugoshortcode-s1-hbhb">
+<iframe id='pdf-hugo' src='/pdf/Resistenciadematerialesyestructuras.pdf'
+frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function myFunction(id) {
+      document.getElementById(id).classList.add("full-screen");
+    }
+    document.addEventListener('keydown', function(event){
+	if(event.key === "Escape"){
+        document.getElementById('pdf-hugo').classList.remove("full-screen");
+	}
+});
+</script></h2>
 <h2 id="simulación-y-análisis-de-fuerzas">Simulación y Análisis de fuerzas</h2>
 <p>El análisis de fuerza, en este caso tensión sobre la misma, se representa como un mapa de &ldquo;calor&rdquo; a lo largo de la pieza, donde las zonas rojas son las que presentan un alto grado de estrés, y por lógica, las que tienen mayor probabilidad de romperse.</p>
 <p><img src="/img/DG_1.png" alt="Imagen Simple"></p>

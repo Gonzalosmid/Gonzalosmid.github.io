@@ -27,10 +27,10 @@
     
     <item>
       <title>0-Fabricación Digital</title>
-      <link>https://gonzalosmid.github.io/docs/post-1/</link>
+      <link>https://gonzalosmid.github.io/docs/0-fabricaciond/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://gonzalosmid.github.io/docs/post-1/</guid>
+      <guid>https://gonzalosmid.github.io/docs/0-fabricaciond/</guid>
       <description>Encargo 1</description>
     </item>
     
@@ -89,7 +89,16 @@
     </item>
     
     <item>
-      <title>6-Pre Entrega 1</title>
+      <title>6-Complementario Molde</title>
+      <link>https://gonzalosmid.github.io/docs/8-complementario-molde/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://gonzalosmid.github.io/docs/8-complementario-molde/</guid>
+      <description>Molde.</description>
+    </item>
+    
+    <item>
+      <title>7-Pre Entrega 1</title>
       <link>https://gonzalosmid.github.io/docs/6-examenmateriales/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -98,7 +107,7 @@
     </item>
     
     <item>
-      <title>7-Pre Entrega 2</title>
+      <title>8-Pre Entrega 2</title>
       <link>https://gonzalosmid.github.io/docs/7-examen2/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       

@@ -99,7 +99,7 @@
     </li>
     
     <li class="">
-      <a href="https://gonzalosmid.github.io/docs/post-1/">0-Fabricación Digital</a>
+      <a href="https://gonzalosmid.github.io/docs/0-fabricaciond/">0-Fabricación Digital</a>
     </li>
     
     <li class="">
@@ -127,11 +127,15 @@
     </li>
     
     <li class="">
-      <a href="https://gonzalosmid.github.io/docs/6-examenmateriales/">6-Pre Entrega 1</a>
+      <a href="https://gonzalosmid.github.io/docs/8-complementario-molde/">6-Complementario Molde</a>
     </li>
     
     <li class="">
-      <a href="https://gonzalosmid.github.io/docs/7-examen2/">7-Pre Entrega 2</a>
+      <a href="https://gonzalosmid.github.io/docs/6-examenmateriales/">7-Pre Entrega 1</a>
+    </li>
+    
+    <li class="">
+      <a href="https://gonzalosmid.github.io/docs/7-examen2/">8-Pre Entrega 2</a>
     </li>
     
   </ul>
@@ -158,6 +162,151 @@
 </ol>
 <p>Cabe destacar que este tipo de maquinaria, aparte de su funcionalidad, se diferencian por su movimiento y por el número de ejes. Para este ejercicio, seleccionamos por defecto una máquina CNC genérica de tres ejes, esto quiere decir que se mueve simultáneamente a través de los ejes X, Y y Z.</p>
 <p><img src="/img/cnc2.png" alt="Imagen Simple"></p>
+<p>Para tener una mejor concepción de como trabaja una máquina CNC sobre materiales como la madera y los enchapados, la siguiente tabla muestra las distintas velocidades y revoluciones a las que son capaces de operar:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Materiales</th>
+<th style="text-align:center">Work Speed</th>
+<th style="text-align:center">Travel Speed</th>
+<th style="text-align:center">RPM</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">MDF</td>
+<td style="text-align:center">3000</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">18000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Acrílico</td>
+<td style="text-align:center">800</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">12000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Terciado</td>
+<td style="text-align:center">3000</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">18000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Terciado Marino</td>
+<td style="text-align:center">2500</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">18000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Raulí</td>
+<td style="text-align:center">2500</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">18000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">ABS</td>
+<td style="text-align:center">2000</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">9000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">PAI</td>
+<td style="text-align:center">2000</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">9000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Aluminio</td>
+<td style="text-align:center">300</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">15000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Bronce</td>
+<td style="text-align:center">300</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">15000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Polietileno</td>
+<td style="text-align:center">2500</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">12000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Tecnil</td>
+<td style="text-align:center">2500</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">12000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Troicel</td>
+<td style="text-align:center">1600</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">9000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">Bambú</td>
+<td style="text-align:center">1500</td>
+<td style="text-align:center">5000</td>
+<td style="text-align:center">15000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Acrilico	800	5000	12000
+Terciado	3000	5000	18000
+Terciado marino	2500	5000	18000
+Raulí	2500	5000	18000
+ABS	2000	5000	9000
+PAI	2000	5000	9000
+Aluminio	300	5000	15000
+Bronce	300	5000	15000
+Polietileno	2500	5000	12000
+Tecnil	2500	5000	12000
+Troicel	1600	5000	9000
+Bambu	1500	5000	15000</p>
 <hr>
 <h3 id="proceso-de-diseño-y-manufactura">Proceso de Diseño y Manufactura:</h3>
 <h4 id="design">Design</h4>
@@ -248,56 +397,361 @@
 </ol>
 <p>Es la parte de mayor complejidad, puesto que por medio de una serie de cortes incompletos hasta la mitad del espesor de la tabla con el comando Trace. Todo esto permite pasar de  un material poco flexible a uno que pueda ser doblado con mayorn facilidad evitando que se rompa. Se finaliza con un Contour más tabs cada 350 mm.</p>
 <hr>
-<h1 id="planimetrias">Planimetrias</h1>
-<p><img src="/img/planimetrias_cnc-01.png" alt="Imagen Simple">
-<img src="/img/planimetrias_cnc-02.png" alt="Imagen Simple">
-<img src="/img/planimetrias_cnc-03.png" alt="Imagen Simple"></p>
-<div>
-    <iframe 
-    src='https://alumnos4763.autodesk360.com/shares/public/SH56a43QTfd62c1cd968c1046c5e8f01499c?mode=embed'
-    width="100%" 
-    height="450" 
-    allowfullscreen="true" 
-    webkitallowfullscreen="true" 
-    mozallowfullscreen="true"  
-    frameborder="0">
-    </iframe>    
-</div>
+<p>Para contextualizar más el proceso anteriormente simulado, se procede a adjuntar una galería de imagenes que detallan como se desbasta la madera en la realidad y los precisos resultados que genera el mecanizado computarizado.</p>
 <p>
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
 
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-01.png');" >
-				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-01.png" alt="Planimetrias cnc 01" />
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//10.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//10.jpg" alt="10th" />
 				    </div>
 			      <figcaption>
-		          <p>Planimetrias cnc 01</p>
+		          <p>10th</p>
 			      </figcaption>
-				    <a href="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-01.png" itemprop="contentUrl"></a>
+				    <a href="https://gonzalosmid.github.io//img/POST3//10.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-02.png');" >
-				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-02.png" alt="Planimetrias cnc 02" />
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//11.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//11.jpg" alt="11th" />
 				    </div>
 			      <figcaption>
-		          <p>Planimetrias cnc 02</p>
+		          <p>11th</p>
 			      </figcaption>
-				    <a href="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-02.png" itemprop="contentUrl"></a>
+				    <a href="https://gonzalosmid.github.io//img/POST3//11.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-03.png');" >
-				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-03.png" alt="Planimetrias cnc 03" />
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//12.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//12.jpg" alt="12th" />
 				    </div>
 			      <figcaption>
-		          <p>Planimetrias cnc 03</p>
+		          <p>12th</p>
 			      </figcaption>
-				    <a href="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-03.png" itemprop="contentUrl"></a>
+				    <a href="https://gonzalosmid.github.io//img/POST3//12.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//13.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//13.jpg" alt="13th" />
+				    </div>
+			      <figcaption>
+		          <p>13th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//13.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//14.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//14.jpg" alt="14th" />
+				    </div>
+			      <figcaption>
+		          <p>14th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//14.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//15.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//15.jpg" alt="15th" />
+				    </div>
+			      <figcaption>
+		          <p>15th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//15.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//16.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//16.jpg" alt="16th" />
+				    </div>
+			      <figcaption>
+		          <p>16th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//16.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//17.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//17.jpg" alt="17th" />
+				    </div>
+			      <figcaption>
+		          <p>17th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//17.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//18.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//18.jpg" alt="18th" />
+				    </div>
+			      <figcaption>
+		          <p>18th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//18.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//19.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//19.jpg" alt="19th" />
+				    </div>
+			      <figcaption>
+		          <p>19th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//19.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//20.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//20.jpg" alt="20th" />
+				    </div>
+			      <figcaption>
+		          <p>20th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//20.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//21.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//21.jpg" alt="21st" />
+				    </div>
+			      <figcaption>
+		          <p>21st</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//21.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//22.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//22.jpg" alt="22nd" />
+				    </div>
+			      <figcaption>
+		          <p>22nd</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//22.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//23.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//23.jpg" alt="23rd" />
+				    </div>
+			      <figcaption>
+		          <p>23rd</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//23.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//24.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//24.jpg" alt="24th" />
+				    </div>
+			      <figcaption>
+		          <p>24th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//24.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//25.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//25.jpg" alt="25th" />
+				    </div>
+			      <figcaption>
+		          <p>25th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//25.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//26.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//26.jpg" alt="26th" />
+				    </div>
+			      <figcaption>
+		          <p>26th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//26.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//27.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//27.jpg" alt="27th" />
+				    </div>
+			      <figcaption>
+		          <p>27th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//27.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//28.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//28.jpg" alt="28th" />
+				    </div>
+			      <figcaption>
+		          <p>28th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//28.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//29.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//29.jpg" alt="29th" />
+				    </div>
+			      <figcaption>
+		          <p>29th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//29.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//3.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//3.jpg" alt="3rd" />
+				    </div>
+			      <figcaption>
+		          <p>3rd</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//3.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//30.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//30.jpg" alt="30th" />
+				    </div>
+			      <figcaption>
+		          <p>30th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//30.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//31.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//31.jpg" alt="31st" />
+				    </div>
+			      <figcaption>
+		          <p>31st</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//31.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//32.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//32.jpg" alt="32nd" />
+				    </div>
+			      <figcaption>
+		          <p>32nd</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//32.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//33.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//33.jpg" alt="33rd" />
+				    </div>
+			      <figcaption>
+		          <p>33rd</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//33.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//34.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//34.jpg" alt="34th" />
+				    </div>
+			      <figcaption>
+		          <p>34th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//34.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//4.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//4.jpg" alt="4th" />
+				    </div>
+			      <figcaption>
+		          <p>4th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//4.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//5.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//5.jpg" alt="5th" />
+				    </div>
+			      <figcaption>
+		          <p>5th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//5.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//6.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//6.jpg" alt="6th" />
+				    </div>
+			      <figcaption>
+		          <p>6th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//6.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//7.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//7.jpg" alt="7th" />
+				    </div>
+			      <figcaption>
+		          <p>7th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//7.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//8.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//8.jpg" alt="8th" />
+				    </div>
+			      <figcaption>
+		          <p>8th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//8.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/POST3//9.jpg');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/POST3//9.jpg" alt="9th" />
+				    </div>
+			      <figcaption>
+		          <p>9th</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/POST3//9.jpg" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 </div>
@@ -361,6 +815,63 @@
     </div>
     </div>
 </div>
+</p>
+<h1 id="planimetrias">Planimetrias</h1>
+<p><img src="/img/planimetrias_cnc-01.png" alt="Imagen Simple">
+<img src="/img/planimetrias_cnc-02.png" alt="Imagen Simple">
+<img src="/img/planimetrias_cnc-03.png" alt="Imagen Simple"></p>
+<div>
+    <iframe 
+    src='https://alumnos4763.autodesk360.com/shares/public/SH56a43QTfd62c1cd968c1046c5e8f01499c?mode=embed'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+<p>
+
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-01.png');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-01.png" alt="Planimetrias cnc 01" />
+				    </div>
+			      <figcaption>
+		          <p>Planimetrias cnc 01</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-01.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-02.png');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-02.png" alt="Planimetrias cnc 02" />
+				    </div>
+			      <figcaption>
+		          <p>Planimetrias cnc 02</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-02.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-03.png');" >
+				      <img itemprop="thumbnail" src="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-03.png" alt="Planimetrias cnc 03" />
+				    </div>
+			      <figcaption>
+		          <p>Planimetrias cnc 03</p>
+			      </figcaption>
+				    <a href="https://gonzalosmid.github.io//img/planicnc//planimetrias_cnc-03.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+ 
+
+
 </p>
 <p>Referencias:</p>
 <ul>
